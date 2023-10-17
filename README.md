@@ -49,4 +49,4 @@ prev_frame = None
 python main.py
 ```
 
-## Comments
+# Recommendations
