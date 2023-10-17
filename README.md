@@ -26,3 +26,21 @@ alarm_sound = pygame.mixer.Sound('alarm.mp3')
 output_folder = 'images_alarm'
 ...
 ```
+##Change camera
+Change the number in this part of the code, if you want to do it with a secondary camera put the number 1 and if you have more than 2 cameras, 2,3,4,etc... 
+
+```python
+...
+
+from tkinter import filedialog
+pygame.init()
+
+i = 45
+e = 25
+cap = cv2.VideoCapture(0)  # Change this number to switch cameras (Default: 0)
+audio_playing = False
+start_time = None
+prev_frame = None
+
+...
+```
