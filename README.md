@@ -43,6 +43,9 @@ start_time = None
 prev_frame = None
 ...
 ```
+## Change Alarm
+
+Clearly you can change the alarm by changing the alarm.mp3 file to any other audio file clearly naming it the same name as the original one
 
 # Running the tool
 ```bash
@@ -70,3 +73,4 @@ If you have a lot of problems with false positives due to camera quality or anyt
 ```
 
 # [LICENSE](https://github.com/GUCHIHACKER/Movement_detector_telegram/blob/main/LICENSE)
+
