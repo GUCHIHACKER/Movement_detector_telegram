@@ -26,7 +26,7 @@ alarm_sound = pygame.mixer.Sound('alarm.mp3')
 output_folder = 'images_alarm'
 ...
 ```
-##Change camera
+## Change camera
 Change the number in this part of the code, if you want to do it with a secondary camera put the number 1 and if you have more than 2 cameras, 2,3,4,etc... 
 
 ```python
