@@ -12,7 +12,7 @@ pip install -r requirements.txt
 Create a telegram bot and add it to a group
 [Help Page](https://atareao.es/tutorial/crea-tu-propio-bot-para-telegram/)
 ## Copy telegram bot-token, chat-id and add to the script
-The chat id of the group can be found here https://web.telegram.org/a/#your-bot-token
+The chat id of the group can be found here https://web.telegram.org/a/#chat-id
 
 In this part of the code change the bot token and in chatid for yours.
 ```python
