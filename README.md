@@ -52,3 +52,5 @@ python main.py
 
 To stop the tool press the esc key
 # Recommendations
+The use of high quality webcams is recommended to improve detection, throughout the project I was using a 1080p action cam and it was great.
+![camera](https://github.com/GUCHIHACKER/Movement_detector_telegram/blob/main/camera.jpeg)
