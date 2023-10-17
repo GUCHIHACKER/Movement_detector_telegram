@@ -10,7 +10,7 @@ pip install -r requirements.txt
 
 # Configuration
 ## Create a telegram bot 
-Create a telegram bot and add it to a group
+Create a telegram bot and add it to a group.
 [Help Page](https://atareao.es/tutorial/crea-tu-propio-bot-para-telegram/)
 ## Copy telegram bot-token, chat-id and add to the script
 The chat id of the group can be found here https://web.telegram.org/a/#chat-id
@@ -50,7 +50,7 @@ python main.py
 ```
 ![tool](https://github.com/GUCHIHACKER/Movement_detector_telegram/blob/main/tool-running.png)
 
-To stop the tool press the esc key
+To stop the tool press the esc key.
 # Recommendations
 The use of high quality webcams is recommended to improve detection, throughout the project I was using a 1080p action cam and it was great.
 ![camera](https://github.com/GUCHIHACKER/Movement_detector_telegram/blob/main/camera.jpeg)
