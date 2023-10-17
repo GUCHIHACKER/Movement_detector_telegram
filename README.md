@@ -1,5 +1,5 @@
 # Movement_detector_telegram
-Movement detector and capture whit telegram alarm
+Movement detector and capture whit telegram alarm, work in linux and windows.
 
 # Installation
 ```bash
@@ -7,6 +7,7 @@ git clone https://github.com/GUCHIHACKER/Movement_detector_telegram.git
 cd Movement_detector_telegram
 pip install -r requirements.txt
 ```
+
 # Configuration
 ## Create a telegram bot 
 Create a telegram bot and add it to a group
@@ -25,6 +26,7 @@ alarm_sound = pygame.mixer.Sound('alarm.mp3')
 output_folder = 'images_alarm'
 ...
 ```
+
 ## Change camera
 Change the number in this part of the code, if you want to do it with a secondary camera put the number 1 and if you have more than 2 cameras, 2,3,4,etc... 
 
@@ -41,3 +43,10 @@ start_time = None
 prev_frame = None
 ...
 ```
+
+# Running the tool
+```bash
+python main.py
+```
+
+## Comments
