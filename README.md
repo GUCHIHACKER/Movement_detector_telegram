@@ -53,4 +53,18 @@ python main.py
 To stop the tool press the esc key.
 # Recommendations
 The use of high quality webcams is recommended to improve detection, throughout the project I was using a 1080p action cam and it was great.
+
 ![camera](https://github.com/GUCHIHACKER/Movement_detector_telegram/blob/main/camera.jpeg)
+
+If you have a lot of problems with false positives due to camera quality or anything else you can change a parameter in the code.
+
+```python
+...
+            motion_pixels = np.sum(thresh) // 255
+
+            if motion_pixels > 100:  # The larger this number is, the less sensitive the detector is, change it if you have problems with false positives
+                if e >= 30:
+                    threading.Thread(target=lambda: telegram_bot_msg(), daemon=True).start()
+                    e = 0
+...
+```
