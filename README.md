@@ -68,3 +68,5 @@ If you have a lot of problems with false positives due to camera quality or anyt
                     e = 0
 ...
 ```
+
+# [LICENSE](https://github.com/GUCHIHACKER/Movement_detector_telegram/blob/main/LICENSE)
