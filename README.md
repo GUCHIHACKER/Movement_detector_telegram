@@ -10,4 +10,4 @@ pip install -r requirements.txt
 # Configuration
 ## Create a telegram bot 
 Create a telegram bot and add it to a group
-[Help Paged](https://atareao.es/tutorial/crea-tu-propio-bot-para-telegram/)https://atareao.es/tutorial/crea-tu-propio-bot-para-telegram/)
+[Help Paged](https://atareao.es/tutorial/crea-tu-propio-bot-para-telegram/)
