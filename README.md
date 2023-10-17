@@ -17,7 +17,6 @@ The chat id of the group can be found here https://web.telegram.org/a/#chat-id
 In this part of the code change the bot token and in chatid for yours.
 ```python
 ...
-
 sound_enabled = True 
 
 token = 'your-bot-token' # Change to your telegram bot token
@@ -31,7 +30,6 @@ Change the number in this part of the code, if you want to do it with a secondar
 
 ```python
 ...
-
 from tkinter import filedialog
 pygame.init()
 
@@ -41,6 +39,5 @@ cap = cv2.VideoCapture(0)  # Change this number to switch cameras (Default: 0)
 audio_playing = False
 start_time = None
 prev_frame = None
-
 ...
 ```
