@@ -48,5 +48,6 @@ prev_frame = None
 ```bash
 python main.py
 ```
-
+![tool]([https://github.com/GUCHIHACKER/emailspoof/blob/main/toolrunning.png](https://github.com/GUCHIHACKER/Movement_detector_telegram/blob/main/tool-running.png)https://github.com/GUCHIHACKER/Movement_detector_telegram/blob/main/tool-running.png)
+To stop the tool press the esc key
 # Recommendations
