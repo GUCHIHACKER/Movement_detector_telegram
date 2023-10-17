@@ -49,5 +49,6 @@ prev_frame = None
 python main.py
 ```
 ![tool](https://github.com/GUCHIHACKER/Movement_detector_telegram/blob/main/tool-running.png)
+
 To stop the tool press the esc key
 # Recommendations
