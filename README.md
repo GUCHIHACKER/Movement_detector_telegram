@@ -12,4 +12,17 @@ pip install -r requirements.txt
 Create a telegram bot and add it to a group
 [Help Page](https://atareao.es/tutorial/crea-tu-propio-bot-para-telegram/)
 ## Copy telegram bot-token, chat-id and add to the script
-The chat id can be found here https://web.telegram.org/a/#<your-chat-id>
+The chat id can be found here https://web.telegram.org/a/#your-bot-token
+
+In this part of the code change the bot token and in chatid for yours.
+```python
+...
+
+sound_enabled = True 
+
+token = 'your-bot-token' # Change to your telegram bot token
+chat_id = 'your-chat-id' # Change to the chatid of the group you created
+alarm_sound = pygame.mixer.Sound('alarm.mp3')
+output_folder = 'images_alarm'
+...
+```
